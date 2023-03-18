@@ -333,7 +333,7 @@
 
 
 
-@media (max-width:860px){
+@media (max-width: 860px){
  .ROOMS{
   margin-top: 30%;
   grid-template-columns: 1fr;
@@ -345,4 +345,25 @@
 .facilities{
   grid-template-columns: 1fr;
 }
+.hotels{
+
+  grid-template-columns: 1fr;
 }
+.clients{
+
+  grid-template-columns: 1fr;
+}
+.choice{
+  grid-template-columns: 1fr;
+}
+.footers{
+  grid-template-columns: 1fr;
+}
+
+}
+/* @media screen and (max-width: 500px){
+  .ROOMS{
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+} */
