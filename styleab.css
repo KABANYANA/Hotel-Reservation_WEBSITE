@@ -1,0 +1,100 @@
+body{
+  background-color: rgb(223, 223, 223);
+  
+font-family: 'Quicksand', sans-serif;
+font-weight: 700;
+font-size: 20px;
+
+}
+#nuro{
+  color: blue;
+}
+#notNow{
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  
+
+}
+#books{
+  
+  background-color: white;
+  color: blue;
+  padding: 15px;
+  border-radius: 10px;
+  border:1px solid blue;
+
+}
+.nav a{
+text-decoration: none;
+color: black;
+padding: 30px;
+}
+#heading{
+    font-size: 40px;
+    text-align: center;
+
+}
+.story{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.story img{
+    width: 85%;
+    height: 70vh;
+    border-top-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+}
+.story button{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: blue;
+    color: blue;
+  }
+.vision{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 10%;
+}
+.vision img{
+    width: 85%;
+    height: 70vh;
+    border-top-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+}
+.vision button{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  border-color: blue;
+  color: blue;
+  }
+.approach{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.approach img{
+    width: 85%;
+    height: 70vh;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.approach button{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  border-color: blue;
+  color: blue;
+}
+.footers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 10%;
+    background-color: rgb(243, 236, 236);
+  }
+  .footers li{
+    list-style: none;
+  }

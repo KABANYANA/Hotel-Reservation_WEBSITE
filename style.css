@@ -1,5 +1,7 @@
 
-
+body{
+  overflow-x: hidden;
+}
 .nav {
   display: grid;
   grid-template-columns: 1fr;
@@ -9,19 +11,33 @@
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  padding: 20px;
+  padding: 40px;
+ 
  
 }
-.nav button{
-  background-color: rgb(8, 115, 165);
-  padding: 12px;
+#notNow{
+  background-color: blue;
+  color: white;
+  padding: 15px;
   border-radius: 10px;
+  border: none;
+  
+
+}
+#books{
+  
+  background-color: white;
+  color: blue;
+  padding: 15px;
+  border-radius: 10px;
+  border-color: blue;
 
 }
 .nav a{
     text-decoration: none;
     color: white;
     padding: 20px;
+    font-size: 20px;
   }
   .nav h1{
     text-align: center;
@@ -60,7 +76,7 @@
     margin-top: 15%;
   }
    span{
-    color: rgb(98, 167, 224);
+    color: rgb(18, 109, 184);
     
   }
   
@@ -72,9 +88,9 @@
    width: 50%;
    height: 30%;
     padding: 10px;
-    background-color: white;
+    background-color:rgb(55, 169, 226);
     border: 1px solid #ccc;
-    color: #333;
+    color:blue;
     cursor: pointer;
     font-size: 12px;
     border-radius: 40px;
