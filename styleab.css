@@ -98,3 +98,19 @@ padding: 30px;
   .footers li{
     list-style: none;
   }
+
+  @media(max-width:560px){
+    .story{
+      grid-template-columns: 1fr;
+  
+  }
+  .vision{
+    grid-template-columns: 1fr;
+}
+.approach{
+  grid-template-columns: 1fr;
+}
+.footers{
+ grid-template-columns: 1fr;
+}
+  }
