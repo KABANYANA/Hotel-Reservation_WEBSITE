@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(223, 223, 223);
+    /* font-family: 'Dancing Script', cursive;
+font-family: 'IBM Plex Mono', monospace; */
+/* font-family: 'Poppins', sans-serif; */
+font-family: 'Quicksand', sans-serif;
+font-weight: 700;
+ /* font-family: 'Rowdies', cursive; */
+/* font-family: 'Source Code Pro', monospace; */
+overflow-x: hidden;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    }
+    #nuro{
+        color: blue;
+    }
+    #notNow{
+        background-color: blue;
+        color: white;
+        padding: 15px;
+        border-radius: 10px;
+        border: none;
+        
+
+    }
+    #books{
+        
+        background-color: white;
+        color: blue;
+        padding: 15px;
+        border-radius: 10px;
+        border-color: blue;
+
+    }
+    #title{
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    #subtitle{
+        font-size: 40px;
+        font-weight: 800;
+        text-align: center;
+    }
+    #para{
+        text-align: center;
+        justify-content: space-around;
+
+    }
+    .forms{
+        display: flex;
+        padding: 20px;
+        /* display: grid;
+        grid-template-columns: repeat(2,1fr); */
+    }
+    .form1{
+        margin: 20px;
+        
+    }
+    .form2{
+        margin: 20px;
+    }
+    input{
+        width: 300px;
+        height: 40px;
+        margin: 10px;
+        border: none;
+    }
+    #message{
+        width:710px;
+        height: 200px;
+        border: none;
+        border-bottom-right-radius: 40px;
+    }
+    #placeholder{
+        margin-top: 0%;
+    }
+     button{
+        margin-left: 20px;
+        width:100px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(54, 118, 230);
+    }
+
+    .footers{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 10%;
+        background-color: rgb(235, 235, 235);
+      }
+      .footers li{
+        list-style: none;
+      }
+
+      @media(max-width:860px){
+        .footers{
+            grid-template-columns: 1fr;
+           }
+           .forms{
+           
+         display: grid;
+            grid-template-rows: repeat(2,1fr); 
+        }
+        #message{
+            width:350px;
+            height: 200px;
+            border: none;
+            border-bottom-right-radius: 40px;
+      }
+      #title{
+        font-size: 30px;
+        font-weight: 900;
+      }
+      #subtitle{
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+    }
+    #para{
+        text-align: center;
+        font-size: 15px;
+
+    }
+    }
